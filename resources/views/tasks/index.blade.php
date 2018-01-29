@@ -7,6 +7,11 @@
     <title>Welcome!</title>
 </head>
 <body>
+    <h1>Enter your task</h1>
+    <form>
+      Task: <input type="text" name="todo" id="task">
+    </form>
+    <h1>Your list of tasks:</h1>
     <ul>
       <!-- Laravel's blade breaks down this code into the code seen
       below (vanilla php) -->
